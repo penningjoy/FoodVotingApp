@@ -1,5 +1,5 @@
 ﻿# Food Voting App
-Realtime Application using .Net Core, SignalR, Redis Cache and Docker.  
+A multi-container Realtime Application using .Net Core, SignalR, Redis Cache and Docker.  
 
 The SignalR App has the following features:--
 
