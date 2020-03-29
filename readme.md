@@ -11,10 +11,9 @@ Go to localhost:32768
 ```
 
 ## Notes
-The Redis server and the Signal Core Application run in two separate containers. The IP referred to in the signalR application is the 
-host computer IP.
+The Redis server and the Signal Core Application run in two separate containers. The IP referred to
+in the signalR application is the host computer IP.
 
-```cmd
+```
 ipconfig
-
 ```
