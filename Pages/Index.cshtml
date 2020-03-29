@@ -1,0 +1,49 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+    <div class="container">
+        <div class="row">&nbsp;</div>
+
+        <div class="d-inline-block">
+            <h2> Vote for the Party Entree: </h2>
+        </div>
+        <div class="d-inline-block">
+                <img src="~/images/food.png" alt="food" />
+        </div>
+        
+        <div class="d-inline col-md-12">
+            <div class="col-md-8 col-md-offset-1">
+                <button type="button" class="btn btn-primary" id="biriyani">Biriyani </button> &nbsp;
+                <button type="button" class="btn btn-warning" id="polao">Polao </button> &nbsp;
+                <button type="button" class="btn btn-danger" id="curry">Rice and Goat Curry</button> &nbsp;
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <br/> <br/>
+    </div>
+    <div class="row">
+        <table class="table table-striped table-dark" id="votetable">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Briyani</th>
+                    <th scope="col">Polao</th>
+                    <th scope="col">Goat Curry Rice</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Votes :</th>
+                    <td id="biriyanivote">0</td>
+                    <td id="polaovote">0</td>
+                    <td id="curryvote">0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
