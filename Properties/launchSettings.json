@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "SimpleSignalRApp": {
+    "FoodVotingApp": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

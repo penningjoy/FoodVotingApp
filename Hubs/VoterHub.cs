@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Caching.Distributed;
 
-namespace SimpleSignalRApp.Hubs
+namespace FoodVotingApp.Hubs
 {
     /* A hub is a class that serves as a high-level pipeline that handles client-server communication. *
      * The VoterHub inherits from the SignalR Hub class. The Hub class manages the messages, groups and*
